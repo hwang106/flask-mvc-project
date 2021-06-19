@@ -2,7 +2,7 @@ import os
 # needed to pull from giphy databased
 import requests
 # needed for twilio integration
-from twilio.rest import Client
+# from twilio.rest import Client
 import random
 
 # twilio authentication (you'll need to fork and add your own environmental variables for the code to run)
