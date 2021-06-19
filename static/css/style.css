@@ -1,6 +1,7 @@
 .container{
     text-align: center;
-    margin: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 #query_gif{
@@ -21,4 +22,8 @@
     border-right: crimson;
     border-right-style: solid;
     border-width: .5rem;
+}
+
+.container{
+    text-align: center;
 }
