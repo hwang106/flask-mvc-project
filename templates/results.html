@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="/static/images/nahmark-favicon.png" type="image/x-icon">
+    <title>Nahmark: The World's Worst Hallmark App</title>
+  </head>
+
+  <body>
+      <div class="container">
+          <div class="row ecard">
+              <div class="col" id=gif_col>
+                  <img src={{query}} id=query_gif>
+              </div>
+              <div class="col my-auto" id=message>
+                  <h3>Dear {{recipient}}, <br><br> {{message}} <br><br> Love, <br> {{sender}}</h3>
+              </div>
+          </div>
+      </div>
+      <div class="container">
+          <div class="row">
+              <div class="col">
+                  <img src="/static/images/Nahmark.png"
+              </div>
+          </div>
+      </div>
+  </body>
